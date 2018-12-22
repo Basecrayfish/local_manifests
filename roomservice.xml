@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/aperomsik/" name="aaopt" />
+  <remote fetch="https://github.com/Grouper-AOSP/" name="Grouper-AOSP" />
+  <remote fetch="https://github.com/AndDiSa/" name="ads" />
+  <remote fetch="https://github.com/GtrCraft/" name="GtrCraft" />
+  <remote fetch="https://github.com/Team-OctOS/" name="Team-OctOS" />
+  <project groups="device,grouper" name="lineageos_android_device_asus_grouper" path="device/asus/grouper" remote="aaopt" revision="cm-14.1" />
+  <project name="android_kernel_asus_grouper" path="kernel/asus/grouper" remote="ads" revision="ads-7.1.0" />
+  <remove-project name="LineageOS/android_external_libnfc-nxp" />
+  <project groups="pdk" name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="aaopt" revision="cm-14.1" />
+  <project name="proprietary_vendor_asus" path="vendor/asus" remote="ads" revision="ads-7.0.1" />
+  <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="ads" revision="ads-7.0.1" />
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <project name="Basecrayfish/android_vendor_cm" path="vendor/cm" remote="github" />
+  <project name="proprietary_vendor_elan" path="vendor/elan" remote="ads" revision="oct-mm" />
+  <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="ads" revision="ads-7.0.1" />
+  <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="ads" revision="ads-7.1.0" />
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_Exchange" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
+  <project name="LineageOS/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
+  <project name="LineageOS/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="LineageOS/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" />
+</manifest>
