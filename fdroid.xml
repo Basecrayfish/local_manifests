@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+
+  <project name="Basecrayfish/privileged-extension" path="packages/apps/F-DroidPrivilegedExtension" remote="github" revision="master" />
+  <!--project name="android_vendor_fdroid.git" path="vendor/fdroid" remote="fdroid" revision="master" /-->
+</manifest>

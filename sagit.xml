@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project name="Basecrayfish/android_vendor_lineage" path="vendor/lineage" remote="github" />
+  <!--remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" /-->
   <project name="LineageOS/android_device_xiaomi_sagit" path="device/xiaomi/sagit" remote="github" />
-  <project name="Demon000/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" />
+  <!--DMCA'D project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" /-->
+  <project name="xiaomi-msm8998/vendor_xiaomi" path="vendor/xiaomi" remote="github" />
   <project name="LineageOS/android_device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" />
-  <project name="Demon000/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 </manifest>

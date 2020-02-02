@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--remove-project name="LineageOS/android_frameworks_base" />
+  <project name="Basecrayfish/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0-danger" /-->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project name="Basecrayfish/android_vendor_lineage" path="vendor/lineage" remote="github" />
+  <!--project name="Basecrayfish/android_packages_apps_GmsCore" path="packages/apps/GmsCore" remote="github" revision="master" />
+  <project name="Basecrayfish/android_packages_apps_UnifiedNlp" path="packages/apps/UnifiedNlp" remote="github" revision="master"/>
+  <project name="Nanolx/android_external_UnifiedNlpApi" path="external/UnifiedNlpApi" remote="github" revision="master"/>
+  <project name="Nanolx/android_external_MicroGUiTools" path="external/MicroGUiTools" remote="github" revision="master"/-->
+</manifest>
